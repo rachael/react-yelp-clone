@@ -15,7 +15,11 @@
     "yelp",
     "tutorial"
   ],
-  "author": "Rachael Passov",
+  "author": {
+    "name": "Rachael Passov",
+    "email": "code@rachael.io",
+    "url": "rachael.io"
+  }
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/aviatrice/yelp-react-clone/issues"
