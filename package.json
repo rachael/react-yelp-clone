@@ -1,0 +1,24 @@
+{
+  "name": "yelp",
+  "version": "0.0.1",
+  "description": "Lightweight Yelp clone in React. Tutorial here: https://www.fullstackreact.com/articles/react-tutorial-cloning-yelp/",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aviatrice/yelp-react-clone.git"
+  },
+  "keywords": [
+    "react",
+    "yelp",
+    "tutorial"
+  ],
+  "author": "Rachael Passov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aviatrice/yelp-react-clone/issues"
+  },
+  "homepage": "https://github.com/aviatrice/yelp-react-clone#readme"
+}
