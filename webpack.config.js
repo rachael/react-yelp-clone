@@ -18,7 +18,7 @@ var config = getConfig({
   isDev: isDev,
   in: join(src, 'app.js'),
   out: dist,
-  clearBeforeBuild: '!(img|favicon.ico)',
+  clearBeforeBuild: '!favicon.ico', // keep favicon in dist, keep src clean
   html: function(context) {
     return {
       'index.html': context.defaultTemplate({
@@ -29,5 +29,11 @@ var config = getConfig({
     }
   }
 });
+
+config.postcss = [].concat([
+  require('precss')({}),
+  require('autoprefixer')({}),
+  require('cssnano')({})
+]);
 
 module.exports = config;
